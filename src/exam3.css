@@ -1,0 +1,10 @@
+.slider {
+  width: 20rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-children {
+  min-width: 20rem;
+  scroll-snap-align: center;
+}
